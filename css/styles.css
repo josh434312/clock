@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: blueviolet;
+}
+
+  
+
+h1{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 30px;
+ color: blue;
+ font-size: 70px;
+}
+#container{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+     text-align: center;
+     border: 2px solid transparent;
+     border-radius: 50%;
+     line-height: 270px;
+     height: 300px;
+     width: 300px;
+     margin-top: 100px;
+     margin: auto;
+     font-size: 50px;
+     background-color: skyblue;
+   
+}
+
+
+#hour, #min, #sec{
+  margin: 5px;
+  font-size: 70px;
+}
